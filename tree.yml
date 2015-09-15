@@ -549,6 +549,32 @@ start: #TL-1 early tech. Sounding rockets, basic structural pieces and wings. La
         cost: 14 # Estimated from quote of $19,000 price, and production in 1948.
     AllisonV171089: # Prop Engine Allison V-1710 more than 70,000 made during and after WWII.
         cost: 10 # Estimated from quote of $19,000 price, and production in 1943.
+    BMW801:
+    BMWIIIa:
+    DoubleWasp-R280010W:
+    DoubleWasp-R280018W:
+    DoubleWasp-R280021W:
+    DoubleWasp-R280063W:
+    DoubleWasp-R280065W:
+    DuplexCyclone-R335026W:
+    DuplexCyclone-R3350TC:
+    Griffon101:
+    Griffon88:
+    LibertyL12:
+    MercuryIX:
+    MercuryXV:
+    Merlin46:
+    MerlinXII:
+    PMerlinV16507:
+    PMerlinV16509:
+    SabreVII:
+    ShvetsovM63:
+    ShvetsovM63R:
+    ShvetsovM82:
+    TwinCyclone260023:
+    TwinCyclone260023:
+    TwinWasp183086:
+    TwinWasp183094:
 
     # source for some engine prices http://www.warbirdsandairshows.com/Aircraft%20manufacturing/enginemanufacturewwii.htm
     #V1710 - 33.3 before obsolete
