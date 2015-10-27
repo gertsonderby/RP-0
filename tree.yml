@@ -546,21 +546,18 @@ start: #TL-1 early tech. Sounding rockets, basic structural pieces and wings. La
     TwinWasp-R1830-94: # Prop Engine R-1830 had 173,618 made across all variants Date:1930-1951
         cost: 15 # guess, balanced against R1820.
     AllisonV1710143: # Prop Engine Allison V-1710 more than 70,000 made during and after WWII.
-        cost: 14 # Estimated from quote of $19,000 price, and production in 1948.
+        cost: 25 # Estimated from quote of $19,000 price, and production in 1948.
     AllisonV171089: # Prop Engine Allison V-1710 more than 70,000 made during and after WWII.
-        cost: 10 # Estimated from quote of $19,000 price, and production in 1943.
+        cost: 20 # Estimated from -143 price, and production date of 1943.
     BMW801:
-    BMWIIIa:
     DoubleWasp-R280010W:
     DoubleWasp-R280018W:
     DoubleWasp-R280021W:
     DoubleWasp-R280063W:
     DoubleWasp-R280065W:
     DuplexCyclone-R335026W:
-    DuplexCyclone-R3350TC:
     Griffon101:
     Griffon88:
-    LibertyL12:
     MercuryIX:
     MercuryXV:
     Merlin46:
@@ -629,6 +626,7 @@ subsonicFlight: # Now Supersonic Flight
         cost: 80 #FIXME
     X1_Tail:
         cost: 40 #ditto
+    DuplexCyclone-R3350TC: # mid-50's vintage prop engine.
 
 # TIER 1
 basicRocketry: #TL0: Vanguard, early-mid 50s tech. Includes Black Arrow engines because they're late-50s vintage.
