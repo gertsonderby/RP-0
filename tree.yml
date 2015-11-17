@@ -534,44 +534,54 @@ start: #TL-1 early tech. Sounding rockets, basic structural pieces and wings. La
 
     SXTMerlin46Prop:
         cost: 19
-        
-    ShvetsovM63: # Prop Engine
-    ShvetsovM82: # Prop Engine
-    MercuryIX: # Prop Engine
-    MercuryXV: # Prop Engine
+
     TwinCyclone-R2600-23: # Prop Engine R-2600 had 87,579 made across all variants: total cost:$4,857,582.7 Date:1930-1940
         cost: 25 # guess
     TwinCyclone-R2600-7: # Prop Engine R-2600 had 87,579 made across all variants: total cost:$4,857,582.7 Date:1930-1940
         cost: 20 #guess, balanced against 2800.
     TwinWasp-R1830-94: # Prop Engine R-1830 had 173,618 made across all variants Date:1930-1951
         cost: 15 # guess, balanced against R1820.
-    AllisonV1710143: # Prop Engine Allison V-1710 more than 70,000 made during and after WWII.
-        cost: 25 # Estimated from quote of $19,000 price, and production in 1948.
     AllisonV171089: # Prop Engine Allison V-1710 more than 70,000 made during and after WWII.
         cost: 20 # Estimated from -143 price, and production date of 1943.
+    AllisonV1710143: # Prop Engine Allison V-1710 more than 70,000 made during and after WWII.
+        cost: 25 # Estimated from quote of $19,000 price, and production in 1948.
     BMW801:
     DoubleWasp-R280010W:
+        cost: 23 # vs below.
     DoubleWasp-R280018W:
+        cost: 23.7 # late war, for P-61, via Nash, see https://books.google.com/books?id=PerGbKxOPZYC&pg=PA73&lpg=PA73&dq=nash+kelvinator+aircraft+engine&source=bl&ots=0bowaYis6U&sig=MHQTtVTNkKWrlrYN66-GG18hytM&hl=en&ei=9jQ0TeSxJYOglAf6uJCHCg&sa=X&oi=book_result&ct=result&sqi=2#v=onepage&q=nash%20kelvinator%20aircraft%20engine&f=false
     DoubleWasp-R280021W:
+        cost: 24 # vs above.
     DoubleWasp-R280063W:
+        cost: 24.5 # vs above.
     DoubleWasp-R280065W:
+        cost: 25 # vs above.
     DuplexCyclone-R335026W:
-    Griffon101:
+        cost: 30 # wild guess
     Griffon88:
+    Griffon101:
     MercuryIX:
     MercuryXV:
-    Merlin46:
     MerlinXII:
+        cost: 18 # Per http://self.gutenberg.org/articles/rolls-royce_merlin - £2000, assuming late 1940
+    Merlin46:
+        cost: 19 # Guessed based off comparisons, early-War known Merlin cost.
     PMerlinV16507:
+        cost: 20 # Guessed based off comparisons, early-War known Merlin cost.
     PMerlinV16509:
+        cost: 21 # Guessed based off comparisons, early-War known Merlin cost.
     SabreVII:
     ShvetsovM63:
     ShvetsovM63R:
     ShvetsovM82:
+    TwinCyclone26007:
+        cost: 20 # guess
     TwinCyclone260023:
-    TwinCyclone260023:
+        cost: 25 # guess
     TwinWasp183086:
+        cost: 14 # guess, balanced against R1820.
     TwinWasp183094:
+        cost: 15 # guess, balanced against R1820.
 
     # source for some engine prices http://www.warbirdsandairshows.com/Aircraft%20manufacturing/enginemanufacturewwii.htm
     #V1710 - 33.3 before obsolete
@@ -627,6 +637,7 @@ subsonicFlight: # Now Supersonic Flight
     X1_Tail:
         cost: 40 #ditto
     DuplexCyclone-R3350TC: # mid-50's vintage prop engine.
+        cost: 32 # guess based on older DupCyc engine.
 
 # TIER 1
 basicRocketry: #TL0: Vanguard, early-mid 50s tech. Includes Black Arrow engines because they're late-50s vintage.
